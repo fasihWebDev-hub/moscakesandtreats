@@ -89,7 +89,7 @@ export function Hero() {
               <span>•</span>
               <span>Premium Quality</span>
               <span>•</span>
-              <span>Made by Monique</span>
+              <span>Made by Mo</span>
             </div>
           </div>
         </div>
