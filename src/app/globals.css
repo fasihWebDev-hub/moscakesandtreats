@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FAF9F6;
+  --color-espresso: #2C2621;
+  --color-earth-green: #6C7A65;
+  --color-light-sage: #D6D8D2;
+
+  --font-serif: var(--font-cormorant);
+  --font-sans: var(--font-inter);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-espresso);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
+
+/* GSAP Utilities */
+.invisible-on-load {
+  visibility: hidden;
+}
+
+/* Custom Cursor (Optional) */
+.custom-cursor {
+  cursor: none;
+}
+
+/* Hide scrollbar for marquee */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
